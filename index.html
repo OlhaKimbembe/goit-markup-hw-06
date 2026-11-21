@@ -22,9 +22,14 @@
     <!-- Header section-->
     <header class="header" id="header">
       <div class="container header-container">
-        <a href="./index.html" class="logo"
+        <a href="./index.html" class="logo header-logo"
           ><span class="accent">Web</span>Studio</a
         >
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="header-nav-item">
@@ -73,8 +78,8 @@
                   <use href="./images/icons.svg#strategy" />
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Strategy</h3>
-              <p>
+              <h3 class="features-subtitle">Strategy</h3>
+              <p class="features-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -85,8 +90,8 @@
                   <use href="./images/icons.svg#punctuality" />
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Punctuality</h3>
-              <p>
+              <h3 class="features-subtitle">Punctuality</h3>
+              <p class="features-text">
                 Bring the key message to the brand&#39;s audience for the best
                 price within the shortest possible time.
               </p>
@@ -97,8 +102,8 @@
                   <use href="./images/icons.svg#diligence" />
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Diligence</h3>
-              <p>
+              <h3 class="features-subtitle">Diligence</h3>
+              <p class="features-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
@@ -109,8 +114,8 @@
                   <use href="./images/icons.svg#technologies" />
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Technologies</h3>
-              <p>
+              <h3 class="features-subtitle">Technologies</h3>
+              <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -126,6 +131,7 @@
             <li class="team-item">
               <img
                 src="./images/team-1.jpg"
+                srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -180,6 +186,7 @@
             <li class="team-item">
               <img
                 src="./images/team-2.jpg"
+                srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -234,6 +241,7 @@
             <li class="team-item">
               <img
                 src="./images/team-3.jpg"
+                srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -288,6 +296,7 @@
             <li class="team-item">
               <img
                 src="./images/team-4.jpg"
+                srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -351,6 +360,10 @@
               <div class="portfolio-wrapper">
                 <img
                   src="./images/portfolio-1.jpg"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -372,6 +385,10 @@
               <div class="portfolio-wrapper">
                 <img
                   src="./images/portfolio-2.jpg"
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2@2x.jpg 2x
+                  "
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -393,6 +410,10 @@
               <div class="portfolio-wrapper">
                 <img
                   src="./images/portfolio-3.jpg"
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3@2x.jpg 2x
+                  "
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -414,6 +435,10 @@
               <div class="portfolio-wrapper">
                 <img
                   src="./images/portfolio-4.jpg"
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4@2x.jpg 2x
+                  "
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -435,6 +460,10 @@
               <div class="portfolio-wrapper">
                 <img
                   src="./images/portfolio-5.jpg"
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5@2x.jpg 2x
+                  "
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -458,6 +487,10 @@
               <div class="portfolio-wrapper">
                 <img
                   src="./images/portfolio-6.jpg"
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6@2x.jpg 2x
+                  "
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -558,6 +591,82 @@
         </div>
       </div>
     </footer>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-btn-close">
+          <svg class="mobile-menu-btn-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item action">
+            <a class="mobile-menu-link" href="#features">Features</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#team">Team</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-address">
+          <li class="mobile-address-item">
+            <a href="tel:+110001111111" class="mobile-address-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-address-item">
+            <a href="mailto:info@devstudio.com" class="mobile-address-link"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-socials">
+          <li class="mobile-socials-item">
+            <a
+              href="https://instagram.com"
+              class="mobile-socials-wrapper icons-wrapper"
+            >
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#instagram" />
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-socials-item">
+            <a
+              href="https://x.com/"
+              class="mobile-socials-wrapper icons-wrapper"
+            >
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#X" />
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-socials-item">
+            <a
+              href="https://www.facebook.com/"
+              class="mobile-socials-wrapper icons-wrapper"
+            >
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-socials-item">
+            <a
+              href="https://www.linkedin.com/"
+              class="mobile-socials-wrapper icons-wrapper"
+            >
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#linkedin" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- Modal section -->
     <div class="backdrop" id="modal">
       <div class="modal">
@@ -638,14 +747,16 @@
                   <use href="./images/icons.svg#checked" />
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a
-                class="modal-form-link"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Privacy Policy</a
-              >
+              <span class="modal-form-policy-text">
+                I accept the terms and conditions of the
+                <a
+                  class="modal-form-link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Privacy Policy</a
+                >
+              </span>
             </label>
           </div>
           <button class="btn btn-form" type="submit">Send</button>

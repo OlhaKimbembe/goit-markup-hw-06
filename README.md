@@ -1,33 +1,31 @@
 # WebStudio - Module 5 Homework
 
-A continuation of the WebStudio landing page created for previous modules. This
-project adds a subscription form, a modal window, custom form controls, and
-interactive states based on the provided Figma design and Style Guide.
+A continuation of the WebStudio landing page created for previous modules. This project focuses on responsive design, Mobile First development, mobile navigation, and Retina-ready images.
 
 ## Project Requirements
 
-- Repository name: goit-markup-hw-05
+- Repository name: goit-markup-hw-06
 - Use the previous homework project as the starting point.
-- Analyze the Figma layout and Style Guide before implementation.
-- Update the SVG sprite icons.svg in the images folder with Send, Close, User,
-  Phone, Email, and Checkmark icons.
-- Add a subscription form to the Footer.
-- Create a backdrop and modal window with a request form.
-- Implement custom checkbox styling and accessible keyboard interactions.
-- Match typography, colors, spacing, and interactive states to the Style Guide.
-- Add smooth transitions for hover, focus, focus-visible, and checked states.
-- Validate the HTML, format the code with Prettier, and publish the site with
-  GitHub Pages.
+- Analyze the mobile, tablet, and desktop Figma layouts before implementation.
+- Follow the Mobile First approach.
+- Implement responsive layouts using breakpoints at 320px, 768px, and 1158px.
+- Add a responsive mobile menu with interactive open and close states.
+- Prepare Retina-ready images using srcset for content images.
+- Implement responsive background images using image-set() for the Hero section.
+- Adapt all sections, including Header, Features, Team, Portfolio, Footer, and Modal.
+- Ensure proper layout, spacing, typography, and visibility across all screen sizes.
+- Validate the HTML, format the code with Prettier, and publish the site with GitHub Pages.
 
 ## Page Structure
 
-- **Header** - WebStudio logo, navigation links, and contact information.
-- **Hero** - Main headline and call-to-action button.
-- **Features** - Key benefits and qualities of the company.
-- **Team** - Team member profiles with photos, names, and roles.
-- **Portfolio** - Project gallery with images, titles, and categories.
-- **Footer** - Company logo and description.
-- **Modal** - Backdrop with a request form, custom checkbox, and close button.
+- **Header** - WebStudio logo, navigation links, and contact information, and mobile burger menu.
+- **Hero** - Responsive background images, main headline, and call-to-action button.
+- **Features** - Responsive feature cards with adaptive layouts.
+- **Team** - Team member profiles with Retina-ready photos, names, and roles.
+- **Portfolio** - Responsive project gallery with Retina-ready images and overlay effects.
+- **Footer** - Company information and responsive subscription form.
+- **Mobile Menu** - Full-screen navigation with contact information and social media links.
+- **Modal** - Responsive backdrop and request form with custom checkbox and close button.
 
 ## Design
 

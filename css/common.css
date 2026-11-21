@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
 }
 
 a {
@@ -99,8 +100,10 @@ img {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
+
+
 
 .section-title {
   margin-bottom: 72px;
@@ -117,10 +120,14 @@ img {
   margin-bottom: 8px;
 }
 
+
 .container {
-  max-width: 1158px;
+  max-width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
+
+
+
 }
 
 .caption {
@@ -137,4 +144,24 @@ img {
   height: 40px;
   background: #4d5ae5;
   color: #f4f4fd;
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width:1158px) {
+
+  .section {
+    padding: 120px 0;
+  }
+
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+
+  }
+
 }
