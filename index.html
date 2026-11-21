@@ -25,11 +25,7 @@
         <a href="./index.html" class="logo header-logo"
           ><span class="accent">Web</span>Studio</a
         >
-        <button class="mobile-menu-btn" type="button">
-          <svg class="mobile-menu-btn-icon" width="24" height="24">
-            <use href="./images/icons.svg#burger-menu"></use>
-          </svg>
-        </button>
+
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="header-nav-item">
@@ -57,6 +53,11 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -592,37 +593,41 @@
       </div>
     </footer>
     <!-- Mobile menu -->
-    <div id="mobile-menu" class="mobile-menu">
+    <div id="mobile-menu" class="mobile-menu is-open">
       <div class="mobile-menu-container">
         <button class="mobile-menu-btn-close">
           <svg class="mobile-menu-btn-close-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <ul class="mobile-menu-list">
-          <li class="mobile-menu-item action">
-            <a class="mobile-menu-link" href="#features">Features</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="#team">Team</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="#portfolio">Portfolio</a>
-          </li>
-        </ul>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item action">
+              <a class="mobile-menu-link" href="#features">Features</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#team">Team</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
 
-        <ul class="mobile-address">
-          <li class="mobile-address-item">
-            <a href="tel:+110001111111" class="mobile-address-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-          <li class="mobile-address-item">
-            <a href="mailto:info@devstudio.com" class="mobile-address-link"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
+        <address class="mobile-address">
+          <ul class="mobile-address-list">
+            <li class="mobile-address-item">
+              <a href="tel:+110001111111" class="mobile-address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-address-item">
+              <a href="mailto:info@devstudio.com" class="mobile-address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
         <ul class="mobile-socials">
           <li class="mobile-socials-item">
             <a
