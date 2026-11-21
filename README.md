@@ -1,4 +1,4 @@
-# WebStudio - Module 5 Homework
+# WebStudio - Module 6 Homework
 
 A continuation of the WebStudio landing page created for previous modules. This project focuses on responsive design, Mobile First development, mobile navigation, and Retina-ready images.
 
